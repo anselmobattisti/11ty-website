@@ -19,22 +19,22 @@ Let's look at an example where we dynamically build pages based on data from a j
 ```js
 [
 	{
-		name: "Fluffy",
-		age: 2,
+		"name": "Fluffy",
+		"age": 2
 	},
 	{
-		name: "Snugglepants",
-		age: 5,
+		"name": "Snugglepants",
+		"age": 5
 	},
 	{
-		name: "Lord Featherbottom",
-		age: 4,
+		"name": "Lord Featherbottom",
+		"age": 4
 	},
 	{
-		name: "Pennywise",
-		age: 9,
-	},
-];
+		"name": "Pennywise",
+		"age": 9
+	}
+]
 ```
 
 In order to create one page per possum, we can use the following template. The file name isn’t important, but the file extension is (e.g. `possum-pages.liquid` or `possum-pages.njk`).
